@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<head>
+    <title>admission form</title>
+    <style>
+        /* Styling the Body element */
+body {
+    background-color:rgb(219, 236, 239);
+    font-family: Verdana;
+    text-align: center;
+}
+/* Styling the Form */
+form {
+    background-color:rgb(246, 246, 212);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/* Styling .form-control */
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+/* Styling .form-control label */
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+/* Styling .form-control input, select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid:black;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+/* Styling Radio button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+/* Styling Button */
+button {
+    background-color:rgb(251, 208, 251);
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+    </style>
+    </head>
+
+    <body>
+        <h1>college/school admission form.</h1>
+         <!-- Create Form -->
+    <form id="form">
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">Name</label>
+            <input type="text" id="name" placeholder="Enter student's name" />
+        </div>
+        <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+        <div class="form-control">
+            <label for="age" id="label-age">Age</label>
+            <input type="text" id="age" placeholder="Enter student's age" />
+        </div>
+
+
+        <div class="form-control">
+            <label for="name" id="fname">father's name</label>
+            <input type="text" id="fname" placeholder="Enter your father's name" />
+        </div>
+        <div class="form-control">
+            <label for="name" id="mname">mother's name</label>
+            <input type="text" id="mname" placeholder="Enter your mother's name" />
+        </div>
+
+        <div class="form-control">
+            <label for="num" id="number">parent's number</label>
+            <input type="text" id="number" placeholder="Enter your parent's number" />
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">in which grade you are?</label>
+            <select name="role" id="role">
+                <option value="9th">9th</option>
+                <option value="10th">10th</option>
+                <option value="11th">11th</option>
+                <option value="12th">12th</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+        
+        <div class="form-control">
+            <label>subejcts
+                <small>(Check all that apply)</small>
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">english
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">hindi
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">science
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">maths
+            </label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">history
+            </label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">polity
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">geography
+            </label>
+            <label for="inp-8">
+                <input type="checkbox" name="inp">PCM
+            </label>
+            <label for="inp-9">
+                <input type="checkbox" name="inp">PCB
+            </label>
+            <label for="inp-10">
+                <input type="checkbox" name="inp">PCMB
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="comment">Any comments or suggestions</label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+        </div>
+        <!-- Submit Button -->
+        <button type="submit" value="submit">Submit</button>
+    </form>
+</body>
+</html>
+    </body>
+
+
+    
+    
